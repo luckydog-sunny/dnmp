@@ -1,0 +1,445 @@
+2023/08/03 03:20:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:20:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:21:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:21:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:21:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:21:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:21:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:21:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:22:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:22:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:22:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:22:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:22:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/03 03:23:00 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:46:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:46:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:46:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:46:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:47:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:47:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:47:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:47:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:47:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:47:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:48:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:48:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:48:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:48:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:48:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:48:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:49:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:49:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:49:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:49:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:49:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:50:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:50:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:50:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:50:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:50:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:50:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:51:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:51:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:51:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:51:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:51:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:51:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:52:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:52:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:52:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:52:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:52:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:52:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:53:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:53:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:53:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:53:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:53:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:54:00 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:54:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:54:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:54:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:54:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:54:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:55:02 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:55:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:55:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:55:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:55:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:55:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:56:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:56:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:56:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:56:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:56:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:56:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:57:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:57:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:57:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:57:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:57:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:57:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:58:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:58:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:58:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:58:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:58:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:59:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:59:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:59:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:59:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:59:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 00:59:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:00:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:00:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:00:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:00:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:00:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:00:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:01:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:01:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:01:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:01:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:01:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/04 01:01:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/07 01:52:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:30
+2023/08/07 02:27:47 [notice] 1#1: using the "epoll" event method
+2023/08/07 02:27:47 [notice] 1#1: using the "epoll" event method
+2023/08/07 02:27:47 [notice] 1#1: nginx/1.20.2
+2023/08/07 02:27:47 [notice] 1#1: nginx/1.20.2
+2023/08/07 02:27:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/08/07 02:27:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/08/07 02:27:47 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/08/07 02:27:47 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/08/07 02:27:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/08/07 02:27:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/08/07 02:27:47 [notice] 1#1: start worker processes
+2023/08/07 02:27:47 [notice] 1#1: start worker processes
+2023/08/07 02:27:47 [notice] 1#1: start worker process 30
+2023/08/07 02:27:47 [notice] 1#1: start worker process 30
+2023/08/07 02:27:47 [notice] 1#1: start worker process 31
+2023/08/07 02:27:47 [notice] 1#1: start worker process 31
+2023/08/07 02:27:47 [notice] 1#1: start worker process 32
+2023/08/07 02:27:47 [notice] 1#1: start worker process 32
+2023/08/07 02:27:47 [notice] 1#1: start worker process 33
+2023/08/07 02:27:47 [notice] 1#1: start worker process 33
+2023/08/07 02:27:47 [notice] 1#1: start worker process 34
+2023/08/07 02:27:47 [notice] 1#1: start worker process 34
+2023/08/07 02:27:47 [notice] 1#1: start worker process 35
+2023/08/07 02:27:47 [notice] 1#1: start worker process 35
+2023/08/07 02:34:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/08/07 02:34:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/08/07 02:34:57 [notice] 30#30: gracefully shutting down
+2023/08/07 02:34:57 [notice] 30#30: gracefully shutting down
+2023/08/07 02:34:57 [notice] 31#31: gracefully shutting down
+2023/08/07 02:34:57 [notice] 31#31: gracefully shutting down
+2023/08/07 02:34:57 [notice] 32#32: gracefully shutting down
+2023/08/07 02:34:57 [notice] 32#32: gracefully shutting down
+2023/08/07 02:34:57 [notice] 33#33: gracefully shutting down
+2023/08/07 02:34:57 [notice] 33#33: gracefully shutting down
+2023/08/07 02:34:57 [notice] 34#34: gracefully shutting down
+2023/08/07 02:34:57 [notice] 34#34: gracefully shutting down
+2023/08/07 02:34:57 [notice] 35#35: gracefully shutting down
+2023/08/07 02:34:57 [notice] 35#35: gracefully shutting down
+2023/08/07 02:34:57 [notice] 30#30: exiting
+2023/08/07 02:34:57 [notice] 30#30: exiting
+2023/08/07 02:34:57 [notice] 31#31: exiting
+2023/08/07 02:34:57 [notice] 31#31: exiting
+2023/08/07 02:34:57 [notice] 32#32: exiting
+2023/08/07 02:34:57 [notice] 32#32: exiting
+2023/08/07 02:34:57 [notice] 33#33: exiting
+2023/08/07 02:34:57 [notice] 33#33: exiting
+2023/08/07 02:34:57 [notice] 34#34: exiting
+2023/08/07 02:34:57 [notice] 34#34: exiting
+2023/08/07 02:34:57 [notice] 35#35: exiting
+2023/08/07 02:34:57 [notice] 35#35: exiting
+2023/08/07 02:34:57 [notice] 30#30: exit
+2023/08/07 02:34:57 [notice] 31#31: exit
+2023/08/07 02:34:57 [notice] 32#32: exit
+2023/08/07 02:34:57 [notice] 33#33: exit
+2023/08/07 02:34:57 [notice] 34#34: exit
+2023/08/07 02:34:57 [notice] 35#35: exit
+2023/08/07 02:34:57 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/08/07 02:34:57 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/08/07 02:34:57 [notice] 1#1: worker process 30 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: worker process 30 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: worker process 33 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: worker process 33 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/07 02:34:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/07 02:34:57 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/08/07 02:34:57 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/08/07 02:34:57 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/08/07 02:34:57 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/08/07 02:34:57 [notice] 1#1: worker process 31 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: worker process 31 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: worker process 32 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: worker process 32 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: worker process 34 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: worker process 34 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: worker process 35 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: worker process 35 exited with code 0
+2023/08/07 02:34:57 [notice] 1#1: exit
+2023/08/07 02:34:57 [notice] 1#1: exit
+2023/08/07 02:37:19 [notice] 1#1: using the "epoll" event method
+2023/08/07 02:37:19 [notice] 1#1: using the "epoll" event method
+2023/08/07 02:37:19 [notice] 1#1: nginx/1.20.2
+2023/08/07 02:37:19 [notice] 1#1: nginx/1.20.2
+2023/08/07 02:37:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/08/07 02:37:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/08/07 02:37:19 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/08/07 02:37:19 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/08/07 02:37:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/08/07 02:37:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/08/07 02:37:19 [notice] 1#1: start worker processes
+2023/08/07 02:37:19 [notice] 1#1: start worker processes
+2023/08/07 02:37:19 [notice] 1#1: start worker process 30
+2023/08/07 02:37:19 [notice] 1#1: start worker process 30
+2023/08/07 02:37:19 [notice] 1#1: start worker process 31
+2023/08/07 02:37:19 [notice] 1#1: start worker process 31
+2023/08/07 02:37:19 [notice] 1#1: start worker process 32
+2023/08/07 02:37:19 [notice] 1#1: start worker process 32
+2023/08/07 02:37:19 [notice] 1#1: start worker process 33
+2023/08/07 02:37:19 [notice] 1#1: start worker process 33
+2023/08/07 02:37:19 [notice] 1#1: start worker process 34
+2023/08/07 02:37:19 [notice] 1#1: start worker process 34
+2023/08/07 02:37:19 [notice] 1#1: start worker process 35
+2023/08/07 02:37:19 [notice] 1#1: start worker process 35
+2023/08/07 02:39:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/08/07 02:39:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/08/07 02:39:27 [notice] 30#30: gracefully shutting down
+2023/08/07 02:39:27 [notice] 31#31: gracefully shutting down
+2023/08/07 02:39:27 [notice] 31#31: gracefully shutting down
+2023/08/07 02:39:27 [notice] 32#32: gracefully shutting down
+2023/08/07 02:39:27 [notice] 32#32: gracefully shutting down
+2023/08/07 02:39:27 [notice] 34#34: gracefully shutting down
+2023/08/07 02:39:27 [notice] 34#34: gracefully shutting down
+2023/08/07 02:39:27 [notice] 35#35: gracefully shutting down
+2023/08/07 02:39:27 [notice] 35#35: gracefully shutting down
+2023/08/07 02:39:27 [notice] 33#33: gracefully shutting down
+2023/08/07 02:39:27 [notice] 33#33: gracefully shutting down
+2023/08/07 02:39:27 [notice] 30#30: gracefully shutting down
+2023/08/07 02:39:27 [notice] 31#31: exiting
+2023/08/07 02:39:27 [notice] 31#31: exiting
+2023/08/07 02:39:27 [notice] 32#32: exiting
+2023/08/07 02:39:27 [notice] 32#32: exiting
+2023/08/07 02:39:27 [notice] 34#34: exiting
+2023/08/07 02:39:27 [notice] 34#34: exiting
+2023/08/07 02:39:27 [notice] 35#35: exiting
+2023/08/07 02:39:27 [notice] 35#35: exiting
+2023/08/07 02:39:27 [notice] 33#33: exiting
+2023/08/07 02:39:27 [notice] 33#33: exiting
+2023/08/07 02:39:27 [notice] 30#30: exiting
+2023/08/07 02:39:27 [notice] 30#30: exiting
+2023/08/07 02:39:27 [notice] 31#31: exit
+2023/08/07 02:39:27 [notice] 32#32: exit
+2023/08/07 02:39:27 [notice] 34#34: exit
+2023/08/07 02:39:27 [notice] 35#35: exit
+2023/08/07 02:39:27 [notice] 33#33: exit
+2023/08/07 02:39:27 [notice] 30#30: exit
+2023/08/07 02:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/08/07 02:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/08/07 02:39:27 [notice] 1#1: worker process 34 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: worker process 34 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/07 02:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/07 02:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/08/07 02:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/08/07 02:39:27 [notice] 1#1: worker process 35 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: worker process 35 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/07 02:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/08/07 02:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/08/07 02:39:27 [notice] 1#1: worker process 31 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: worker process 31 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/07 02:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/07 02:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/07 02:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/08/07 02:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/08/07 02:39:27 [notice] 1#1: worker process 30 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: worker process 30 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: worker process 33 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: worker process 33 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/07 02:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/07 02:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/08/07 02:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/08/07 02:39:27 [notice] 1#1: worker process 32 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: worker process 32 exited with code 0
+2023/08/07 02:39:27 [notice] 1#1: exit
+2023/08/07 02:39:27 [notice] 1#1: exit
+2023/08/15 06:07:05 [notice] 1#1: using the "epoll" event method
+2023/08/15 06:07:05 [notice] 1#1: using the "epoll" event method
+2023/08/15 06:07:05 [notice] 1#1: nginx/1.20.2
+2023/08/15 06:07:05 [notice] 1#1: nginx/1.20.2
+2023/08/15 06:07:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/08/15 06:07:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/08/15 06:07:05 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/08/15 06:07:05 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/08/15 06:07:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/08/15 06:07:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/08/15 06:07:05 [notice] 1#1: start worker processes
+2023/08/15 06:07:05 [notice] 1#1: start worker processes
+2023/08/15 06:07:05 [notice] 1#1: start worker process 30
+2023/08/15 06:07:05 [notice] 1#1: start worker process 30
+2023/08/15 06:07:05 [notice] 1#1: start worker process 31
+2023/08/15 06:07:05 [notice] 1#1: start worker process 31
+2023/08/15 06:07:05 [notice] 1#1: start worker process 32
+2023/08/15 06:07:05 [notice] 1#1: start worker process 32
+2023/08/15 06:07:05 [notice] 1#1: start worker process 33
+2023/08/15 06:07:05 [notice] 1#1: start worker process 33
+2023/08/15 06:07:05 [notice] 1#1: start worker process 34
+2023/08/15 06:07:05 [notice] 1#1: start worker process 34
+2023/08/15 06:07:05 [notice] 1#1: start worker process 35
+2023/08/15 06:07:05 [notice] 1#1: start worker process 35
+2023/08/15 10:15:51 [error] 30#30: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2023/08/15 10:15:51 [error] 30#30: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2023/08/15 10:15:51 [error] 30#30: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2023/08/15 10:16:22 [info] 30#30: *1 client 172.19.0.1 closed keepalive connection
+2023/08/16 00:35:28 [error] 30#30: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2023/08/16 00:35:28 [error] 30#30: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2023/08/16 00:35:28 [error] 30#30: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2023/08/16 00:35:31 [error] 30#30: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2023/08/16 00:35:31 [error] 30#30: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2023/08/16 00:35:31 [error] 30#30: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2023/08/16 00:36:30 [info] 30#30: *2 client 172.19.0.1 closed keepalive connection
+2023/08/16 06:03:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/08/16 06:03:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/08/16 06:03:42 [notice] 30#30: gracefully shutting down
+2023/08/16 06:03:42 [notice] 31#31: gracefully shutting down
+2023/08/16 06:03:42 [notice] 31#31: gracefully shutting down
+2023/08/16 06:03:42 [notice] 32#32: gracefully shutting down
+2023/08/16 06:03:42 [notice] 32#32: gracefully shutting down
+2023/08/16 06:03:42 [notice] 34#34: gracefully shutting down
+2023/08/16 06:03:42 [notice] 34#34: gracefully shutting down
+2023/08/16 06:03:42 [notice] 35#35: gracefully shutting down
+2023/08/16 06:03:42 [notice] 35#35: gracefully shutting down
+2023/08/16 06:03:42 [notice] 33#33: gracefully shutting down
+2023/08/16 06:03:42 [notice] 30#30: gracefully shutting down
+2023/08/16 06:03:42 [notice] 31#31: exiting
+2023/08/16 06:03:42 [notice] 31#31: exiting
+2023/08/16 06:03:42 [notice] 32#32: exiting
+2023/08/16 06:03:42 [notice] 32#32: exiting
+2023/08/16 06:03:42 [notice] 34#34: exiting
+2023/08/16 06:03:42 [notice] 34#34: exiting
+2023/08/16 06:03:42 [notice] 35#35: exiting
+2023/08/16 06:03:42 [notice] 33#33: gracefully shutting down
+2023/08/16 06:03:42 [notice] 30#30: exiting
+2023/08/16 06:03:42 [notice] 30#30: exiting
+2023/08/16 06:03:42 [notice] 31#31: exit
+2023/08/16 06:03:42 [notice] 32#32: exit
+2023/08/16 06:03:42 [notice] 34#34: exit
+2023/08/16 06:03:42 [notice] 35#35: exiting
+2023/08/16 06:03:42 [notice] 33#33: exiting
+2023/08/16 06:03:42 [notice] 33#33: exiting
+2023/08/16 06:03:42 [notice] 30#30: exit
+2023/08/16 06:03:42 [notice] 35#35: exit
+2023/08/16 06:03:42 [notice] 33#33: exit
+2023/08/16 06:03:43 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/08/16 06:03:43 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/08/16 06:03:43 [notice] 1#1: worker process 32 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: worker process 32 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/16 06:03:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/16 06:03:43 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/08/16 06:03:43 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/08/16 06:03:43 [notice] 1#1: worker process 31 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: worker process 31 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: worker process 33 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: worker process 33 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: worker process 30 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: worker process 30 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: worker process 34 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: worker process 34 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: worker process 35 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: worker process 35 exited with code 0
+2023/08/16 06:03:43 [notice] 1#1: exit
+2023/08/16 06:03:43 [notice] 1#1: exit
+2023/08/30 13:15:03 [notice] 1#1: using the "epoll" event method
+2023/08/30 13:15:03 [notice] 1#1: using the "epoll" event method
+2023/08/30 13:15:03 [notice] 1#1: nginx/1.24.0
+2023/08/30 13:15:03 [notice] 1#1: nginx/1.24.0
+2023/08/30 13:15:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/08/30 13:15:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/08/30 13:15:03 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/08/30 13:15:03 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/08/30 13:15:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/08/30 13:15:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/08/30 13:15:03 [notice] 1#1: start worker processes
+2023/08/30 13:15:03 [notice] 1#1: start worker processes
+2023/08/30 13:15:03 [notice] 1#1: start worker process 28
+2023/08/30 13:15:03 [notice] 1#1: start worker process 28
+2023/08/30 13:15:03 [notice] 1#1: start worker process 29
+2023/08/30 13:15:03 [notice] 1#1: start worker process 29
+2023/08/30 13:15:03 [notice] 1#1: start worker process 30
+2023/08/30 13:15:03 [notice] 1#1: start worker process 30
+2023/08/30 13:15:03 [notice] 1#1: start worker process 31
+2023/08/30 13:15:03 [notice] 1#1: start worker process 31
+2023/08/30 13:15:03 [notice] 1#1: start worker process 32
+2023/08/30 13:15:03 [notice] 1#1: start worker process 32
+2023/08/30 13:15:03 [notice] 1#1: start worker process 33
+2023/08/30 13:15:03 [notice] 1#1: start worker process 33
+2023/08/31 00:29:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/08/31 00:29:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/08/31 00:29:20 [notice] 28#28: gracefully shutting down
+2023/08/31 00:29:20 [notice] 29#29: gracefully shutting down
+2023/08/31 00:29:20 [notice] 29#29: gracefully shutting down
+2023/08/31 00:29:20 [notice] 30#30: gracefully shutting down
+2023/08/31 00:29:20 [notice] 30#30: gracefully shutting down
+2023/08/31 00:29:20 [notice] 32#32: gracefully shutting down
+2023/08/31 00:29:20 [notice] 32#32: gracefully shutting down
+2023/08/31 00:29:20 [notice] 31#31: gracefully shutting down
+2023/08/31 00:29:20 [notice] 31#31: gracefully shutting down
+2023/08/31 00:29:20 [notice] 33#33: gracefully shutting down
+2023/08/31 00:29:20 [notice] 28#28: gracefully shutting down
+2023/08/31 00:29:20 [notice] 29#29: exiting
+2023/08/31 00:29:20 [notice] 29#29: exiting
+2023/08/31 00:29:20 [notice] 30#30: exiting
+2023/08/31 00:29:20 [notice] 29#29: exit
+2023/08/31 00:29:20 [notice] 32#32: exiting
+2023/08/31 00:29:20 [notice] 32#32: exiting
+2023/08/31 00:29:20 [notice] 33#33: gracefully shutting down
+2023/08/31 00:29:20 [notice] 31#31: exiting
+2023/08/31 00:29:20 [notice] 31#31: exiting
+2023/08/31 00:29:20 [notice] 28#28: exiting
+2023/08/31 00:29:20 [notice] 28#28: exiting
+2023/08/31 00:29:20 [notice] 30#30: exiting
+2023/08/31 00:29:20 [notice] 30#30: exit
+2023/08/31 00:29:20 [notice] 32#32: exit
+2023/08/31 00:29:20 [notice] 33#33: exiting
+2023/08/31 00:29:20 [notice] 33#33: exiting
+2023/08/31 00:29:20 [notice] 31#31: exit
+2023/08/31 00:29:20 [notice] 28#28: exit
+2023/08/31 00:29:20 [notice] 33#33: exit
+2023/08/31 00:29:20 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/08/31 00:29:20 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/08/31 00:29:20 [notice] 1#1: worker process 29 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: worker process 29 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/31 00:29:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/31 00:29:20 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/08/31 00:29:20 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/08/31 00:29:20 [notice] 1#1: worker process 28 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: worker process 28 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: worker process 30 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: worker process 30 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: worker process 31 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: worker process 31 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/31 00:29:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/31 00:29:20 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/08/31 00:29:20 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/08/31 00:29:20 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/08/31 00:29:20 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/08/31 00:29:20 [notice] 1#1: worker process 33 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: worker process 33 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/31 00:29:20 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/08/31 00:29:20 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/08/31 00:29:20 [notice] 1#1: worker process 32 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: worker process 32 exited with code 0
+2023/08/31 00:29:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/08/31 00:29:20 [notice] 1#1: exit
+2023/08/31 00:29:20 [notice] 1#1: exit

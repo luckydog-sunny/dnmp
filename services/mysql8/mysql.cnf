@@ -1,0 +1,16 @@
+
+[mysqld]
+pid-file         = /var/run/mysqld/mysqld.pid
+socket           = /var/run/mysqld/mysqld.sock
+datadir          = /var/lib/mysql
+secure_file_priv = /var/lib/mysql
+
+# 慢日志
+slow_query_log = ON
+long_query_time = 2
+slow_query_log_file = /var/log/mysql/mysql.slow.log
+
+log-error = /var/log/mysql/mysql.error.log
+
+default-time-zone       = '+8:00'
+
