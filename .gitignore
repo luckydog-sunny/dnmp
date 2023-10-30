@@ -2,5 +2,5 @@
 .git/
 .env
 .DS_Store
-/data/*
+/data/mysql8/*
 /logs/*

@@ -130,3 +130,87 @@
 2023-08-30T13:12:30.361120Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.34'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
 2023-08-31T00:29:20.013171Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.34).
 2023-08-31T00:29:20.686775Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.34)  MySQL Community Server - GPL.
+2023-10-12T09:40:42.104651Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-10-12T09:40:42.108224Z 0 [Warning] [MY-010099] [Server] Insecure configuration for --secure-file-priv: Data directory is accessible through --secure-file-priv. Consider choosing a different directory.
+2023-10-12T09:40:42.108531Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-10-12T09:40:42.108593Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.34) starting as process 1
+2023-10-12T09:40:42.111950Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-10-12T09:40:42.123061Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-10-12T09:40:42.737241Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-10-12T09:40:43.522178Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-10-12T09:40:43.522549Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-10-12T09:40:43.527998Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-10-12T09:40:43.653215Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-10-12T09:40:43.653500Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.34'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-10-13T03:10:09.947523Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.34).
+2023-10-13T03:10:10.876903Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.34)  MySQL Community Server - GPL.
+2023-10-13T08:30:33.962471Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-10-13T08:30:33.965905Z 0 [Warning] [MY-010099] [Server] Insecure configuration for --secure-file-priv: Data directory is accessible through --secure-file-priv. Consider choosing a different directory.
+2023-10-13T08:30:33.966286Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-10-13T08:30:33.966340Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.34) starting as process 1
+2023-10-13T08:30:33.969884Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-10-13T08:30:33.981191Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-10-13T08:30:34.470599Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-10-13T08:30:34.799946Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-10-13T08:30:34.800242Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-10-13T08:30:34.812147Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-10-13T08:30:34.917933Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-10-13T08:30:34.917965Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.34'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-10-13T09:44:46.303534Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.34).
+2023-10-13T09:44:47.882360Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.34)  MySQL Community Server - GPL.
+2023-10-19T08:06:39.434978Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-10-19T08:06:39.438387Z 0 [Warning] [MY-010099] [Server] Insecure configuration for --secure-file-priv: Data directory is accessible through --secure-file-priv. Consider choosing a different directory.
+2023-10-19T08:06:39.438779Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-10-19T08:06:39.438834Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.34) starting as process 1
+2023-10-19T08:06:39.442350Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-10-19T08:06:39.461816Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-10-19T08:06:40.460747Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-10-19T08:06:40.968823Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-10-19T08:06:40.969618Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-10-19T08:06:40.976921Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-10-19T08:06:41.025556Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-10-19T08:06:41.025650Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.34'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-10-25T02:57:57.502222Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.34).
+2023-10-25T02:57:58.929891Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.34)  MySQL Community Server - GPL.
+2023-10-25T03:54:23.123311Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-10-25T03:54:23.126606Z 0 [Warning] [MY-010099] [Server] Insecure configuration for --secure-file-priv: Data directory is accessible through --secure-file-priv. Consider choosing a different directory.
+2023-10-25T03:54:23.126963Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-10-25T03:54:23.127014Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.34) starting as process 1
+2023-10-25T03:54:23.131242Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-10-25T03:54:23.147534Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-10-25T03:54:23.753804Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-10-25T03:54:24.213560Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-10-25T03:54:24.217407Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-10-25T03:54:24.240988Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-10-25T03:54:24.316856Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-10-25T03:54:24.317062Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.34'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-10-25T11:40:43.431067Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-10-25T11:40:43.437097Z 0 [Warning] [MY-010099] [Server] Insecure configuration for --secure-file-priv: Data directory is accessible through --secure-file-priv. Consider choosing a different directory.
+2023-10-25T11:40:43.437410Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-10-25T11:40:43.437471Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.34) starting as process 1
+2023-10-25T11:40:43.442300Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-10-25T11:40:43.461887Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-10-25T11:40:44.197630Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-10-25T11:40:44.421506Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-10-25T11:40:44.429720Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-10-25T11:40:44.499169Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-10-25T11:40:44.499417Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-10-25T11:40:44.503624Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-10-25T11:40:44.586088Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-10-25T11:40:44.586133Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.34'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-10-25T11:42:26.000353Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-10-25T11:42:26.004603Z 0 [Warning] [MY-010099] [Server] Insecure configuration for --secure-file-priv: Data directory is accessible through --secure-file-priv. Consider choosing a different directory.
+2023-10-25T11:42:26.004962Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-10-25T11:42:26.005021Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.34) starting as process 1
+2023-10-25T11:42:26.008569Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-10-25T11:42:26.028450Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-10-25T11:42:27.080000Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-10-25T11:42:27.379534Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-10-25T11:42:27.387751Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-10-25T11:42:27.428677Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-10-25T11:42:27.428925Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-10-25T11:42:27.433429Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-10-25T11:42:27.471018Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-10-25T11:42:27.471160Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.34'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-10-25T11:42:32.198278Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.34).
+2023-10-25T11:42:32.807005Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.34)  MySQL Community Server - GPL.
