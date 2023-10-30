@@ -1,34 +1,53 @@
 version: "3.8"
 services:
-  php74:
-    build:
-      context: ./services/php74
-      args: 
-        PHP74_VERSION: ${PHP74_VERSION}
-        PHP81_EXTENSIONS: ${PHP81_EXTENSIONS}
-        CONTAINER_PACKAGE_URL: ${CONTAINER_PACKAGE_URL}
-    ports:
-      - "${PHP74_PORT_9000}:9000"
-      - "${PHP74_PORT_9501}:9501"
-      - "${PHP74_PORT_9502}:9502"
-    volumes:
-      - ${SOURCE_DIR}:/www/:rw
-      - ${PHP74_SSL_DIR}:/data/cert:ro
-      - ${PHP74_INI_FILE}:/usr/local/etc/php/php.ini:ro
-      - ${PHP74_FPM_CONF_FILE}:/usr/local/etc/php-fpm.conf:ro
-      - ${PHP74_LOG_DIR}:/var/log/php
-      - ${PHP74_SSH_DIR}:/home/www/.ssh:ro
-    restart: always
-    command: php-fpm
-    cap_add:
-      - SYS_PTRACE
-    networks:
-      - default
+#  mineadmin:
+#    build:
+#      context: ./services/mineadmin
+#      args:
+#        MINE_VERSION : ${MINE_VERSION}
+#    platform: linux/arm64/v8
+#    ports:
+#      - "${MINE_PORT_9000}:9000"
+#      - "${MINE_PORT_9501}:9501"
+#      - "${MINE_PORT_9502}:9502"
+#    volumes:
+#      - ${SOURCE_DIR}:/opt/www:rw
+#    environment:
+#      - APP_ENV=dev
+#      - SCAN_CACHEABLE=false
+#    entrypoint: ["php", "/opt/www/bin/hyperf.php", "start"]
+#    networks:
+#      - default
+
+#  php74:
+#    build:
+#      context: ./services/php74
+#      args:
+#        PHP74_VERSION: ${PHP74_VERSION}
+#        PHP74_EXTENSIONS: ${PHP74_EXTENSIONS}
+#        CONTAINER_PACKAGE_URL: ${CONTAINER_PACKAGE_URL}
+#    ports:
+#      - "${PHP74_PORT_9000}:9000"
+#      - "${PHP74_PORT_9501}:9501"
+#      - "${PHP74_PORT_9502}:9502"
+#    volumes:
+#      - ${SOURCE_DIR}:/www/:rw
+#      - ${PHP74_SSL_DIR}:/data/cert:ro
+#      - ${PHP74_INI_FILE}:/usr/local/etc/php/php.ini:ro
+#      - ${PHP74_FPM_CONF_FILE}:/usr/local/etc/php-fpm.conf:ro
+#      - ${PHP74_LOG_DIR}:/var/log/php
+#      - ${PHP74_SSH_DIR}:/home/www/.ssh:ro
+#    restart: always
+#    command: php-fpm
+#    cap_add:
+#      - SYS_PTRACE
+#    networks:
+#      - default
 
   php81:
     build:
       context: ./services/php81
-      args: 
+      args:
         PHP81_VERSION: ${PHP81_VERSION}
         PHP81_EXTENSIONS: ${PHP81_EXTENSIONS}
         CONTAINER_PACKAGE_URL: ${CONTAINER_PACKAGE_URL}
@@ -50,72 +69,72 @@ services:
     networks:
       - default
 
-  # nginx:
-  #   build: 
-  #     context: ./services/nginx
-  #     args:
-  #       NGINX_VERSION: ${NGINX_VERSION}
-  #   volumes:
-  #     - ${SOURCE_DIR}:/www/:rw
-  #     - ${NGINX_SSL_CERTIFICATE_DIR}:/ssl:rw
-  #     - ${NGINX_CONFD_DIR}:/etc/nginx/conf.d/:rw
-  #     - ${NGINX_CONF_FILE}:/etc/nginx/nginx.conf:ro
-  #     - ${NGINX_FASTCGI_PHP_CONF}:/etc/nginx/fastcgi-php.conf:ro
-  #     - ${NGINX_FASTCGI_PARAMS}:/etc/nginx/fastcgi_params.conf:ro
-  #     - ${NGINX_LOG_DIR}:/var/log/nginx/:rw
-  #   ports:
-  #     - "${NGINX_HTTP_HOST_PORT}:80"
-  #     - "${NGINX_HTTPS_HOST_PORT}:443"
-  #   restart: always
-  #   command: nginx -g 'daemon off;'
-  #   networks:
-  #     - default
+  nginx:
+     build:
+       context: ./services/nginx
+       args:
+         NGINX_VERSION: ${NGINX_VERSION}
+     volumes:
+       - ${SOURCE_DIR}:/www/:rw
+       - ${NGINX_SSL_CERTIFICATE_DIR}:/ssl:rw
+       - ${NGINX_CONFD_DIR}:/etc/nginx/conf.d/:rw
+       - ${NGINX_CONF_FILE}:/etc/nginx/nginx.conf:ro
+       - ${NGINX_FASTCGI_PHP_CONF}:/etc/nginx/fastcgi-php.conf:ro
+       - ${NGINX_FASTCGI_PARAMS}:/etc/nginx/fastcgi_params.conf:ro
+       - ${NGINX_LOG_DIR}:/var/log/nginx/:rw
+     ports:
+       - "${NGINX_HTTP_HOST_PORT}:80"
+       - "${NGINX_HTTPS_HOST_PORT}:443"
+     restart: always
+     command: nginx -g 'daemon off;'
+     networks:
+       - default
 
-  # mysql8:
-  #   build: 
-  #     context: ./services/mysql8
-  #     args:
-  #       MYSQL8_VERSION: ${MYSQL8_VERSION}
-  #   ports:
-  #     - "${MYSQL8_HOST_PORT}:3306"
-  #   volumes:
-  #     - ${MYSQL8_CONF_FILE}:/etc/mysql/conf.d/mysql.cnf:ro
-  #     - ${DATA_DIR}/mysql8:/var/lib/mysql/:rw
-  #     - ${MYSQL8_LOG_DIR}:/var/log/mysql/:rw
-  #   environment:
-  #     MYSQL_ROOT_PASSWORD: "${MYSQL8_ROOT_PASSWORD}"
-  #     MYSQL_ROOT_HOST: "${MYSQL8_ROOT_HOST}"
-  #     TZ: "$TZ"
-  #   restart: always
-  #   command: "--character-set-server=utf8mb4"
-  #   networks:
-  #     - default
+  mysql8:
+     build:
+       context: ./services/mysql8
+       args:
+         MYSQL8_VERSION: ${MYSQL8_VERSION}
+     ports:
+       - "${MYSQL8_HOST_PORT}:3306"
+     volumes:
+       - ${MYSQL8_CONF_FILE}:/etc/mysql/conf.d/mysql.cnf:ro
+       - ${DATA_DIR}/mysql8:/var/lib/mysql/:rw
+       - ${MYSQL8_LOG_DIR}:/var/log/mysql/:rw
+     environment:
+       MYSQL_ROOT_PASSWORD: "${MYSQL8_ROOT_PASSWORD}"
+       MYSQL_ROOT_HOST: "${MYSQL8_ROOT_HOST}"
+       TZ: "$TZ"
+     restart: always
+     command: "--character-set-server=utf8mb4"
+     networks:
+       - default
 
-  # redis-db:
-  #   build:
-  #     context: ./services/redis
-  #     args:
-  #       REDIS_VERSION: ${REDIS_VERSION}
-  #   ports:
-  #     - "${REDIS_HOST_PORT}:6379"
-  #   restart: always
-  #   networks:
-  #     - default
+  redis-db:
+     build:
+       context: ./services/redis
+       args:
+         REDIS_VERSION: ${REDIS_VERSION}
+     ports:
+       - "${REDIS_HOST_PORT}:6379"
+     restart: always
+     networks:
+       - default
 
-  # rabbitmq:
-  #   build:
-  #     context: ./services/rabbitmq
-  #     args:
-  #       RABBITMQ_VERSION: ${RABBITMQ_VERSION}
-  #   ports:
-  #     - "${RABBITMQ_PORT_WEB}:15672"
-  #     - "${RABBITMQ_PORT_SERVICE}:5672"
-  #   environment:
-  #     - RABBITMQ_DEFAULT_USER="${RABBITMQ_DEFAULT_USER}"
-  #     - RABBITMQ_DEFAULT_PASS="${RABBITMQ_DEFAULT_PASS}"
-  #   restart: always
-  #   networks:
-  #     - default
+  rabbitmq:
+     build:
+       context: ./services/rabbitmq
+       args:
+         RABBITMQ_VERSION: ${RABBITMQ_VERSION}
+     ports:
+       - "${RABBITMQ_PORT_WEB}:15672"
+       - "${RABBITMQ_PORT_SERVICE}:5672"
+     environment:
+       - RABBITMQ_DEFAULT_USER="${RABBITMQ_DEFAULT_USER}"
+       - RABBITMQ_DEFAULT_PASS="${RABBITMQ_DEFAULT_PASS}"
+     restart: always
+     networks:
+       - default
 
 networks:
   default:
