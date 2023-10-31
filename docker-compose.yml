@@ -10,15 +10,20 @@ services:
 #      - "${MINE_PORT_9000}:9000"
 #      - "${MINE_PORT_9501}:9501"
 #      - "${MINE_PORT_9502}:9502"
+#    user: root
+#    privileged: true
 #    volumes:
-#      - ${SOURCE_DIR}:/opt/www:rw
+#      - ./www:/opt/www:rw
 #    environment:
 #      - APP_ENV=dev
 #      - SCAN_CACHEABLE=false
-#    entrypoint: ["php", "/opt/www/bin/hyperf.php", "start"]
+#    cap_add:
+#      - SYS_PTRACE
+#    restart: always
+#    tty: true
 #    networks:
 #      - default
-
+#
 #  php74:
 #    build:
 #      context: ./services/php74
