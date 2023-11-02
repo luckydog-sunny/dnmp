@@ -4,3 +4,4 @@
 .DS_Store
 /data/mysql8/*
 /logs/*
+/mine/www/*

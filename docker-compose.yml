@@ -1,8 +1,8 @@
 version: "3.8"
 services:
-#  mineadmin:
+#  mine:
 #    build:
-#      context: ./services/mineadmin
+#      context: ./services/mine
 #      args:
 #        MINE_VERSION : ${MINE_VERSION}
 #    platform: linux/arm64/v8
@@ -13,7 +13,7 @@ services:
 #    user: root
 #    privileged: true
 #    volumes:
-#      - ./www:/opt/www:rw
+#      - ./www/mineadmin:/opt/www:rw
 #    environment:
 #      - APP_ENV=dev
 #      - SCAN_CACHEABLE=false
