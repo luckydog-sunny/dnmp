@@ -23,31 +23,31 @@ services:
 #    tty: true
 #    networks:
 #      - default
-#
-#  php74:
-#    build:
-#      context: ./services/php74
-#      args:
-#        PHP74_VERSION: ${PHP74_VERSION}
-#        PHP74_EXTENSIONS: ${PHP74_EXTENSIONS}
-#        CONTAINER_PACKAGE_URL: ${CONTAINER_PACKAGE_URL}
-#    ports:
-#      - "${PHP74_PORT_9000}:9000"
-#      - "${PHP74_PORT_9501}:9501"
-#      - "${PHP74_PORT_9502}:9502"
-#    volumes:
-#      - ${SOURCE_DIR}:/www/:rw
-#      - ${PHP74_SSL_DIR}:/data/cert:ro
-#      - ${PHP74_INI_FILE}:/usr/local/etc/php/php.ini:ro
-#      - ${PHP74_FPM_CONF_FILE}:/usr/local/etc/php-fpm.conf:ro
-#      - ${PHP74_LOG_DIR}:/var/log/php
-#      - ${PHP74_SSH_DIR}:/home/www/.ssh:ro
-#    restart: always
-#    command: php-fpm
-#    cap_add:
-#      - SYS_PTRACE
-#    networks:
-#      - default
+
+  php74:
+    build:
+      context: ./services/php74
+      args:
+        PHP74_VERSION: ${PHP74_VERSION}
+        PHP74_EXTENSIONS: ${PHP74_EXTENSIONS}
+        CONTAINER_PACKAGE_URL: ${CONTAINER_PACKAGE_URL}
+    ports:
+      - "${PHP74_PORT_9000}:9000"
+      - "${PHP74_PORT_9501}:9501"
+      - "${PHP74_PORT_9502}:9502"
+    volumes:
+      - ${SOURCE_DIR}:/www/:rw
+      - ${PHP74_SSL_DIR}:/data/cert:ro
+      - ${PHP74_INI_FILE}:/usr/local/etc/php/php.ini:ro
+      - ${PHP74_FPM_CONF_FILE}:/usr/local/etc/php-fpm.conf:ro
+      - ${PHP74_LOG_DIR}:/var/log/php
+      - ${PHP74_SSH_DIR}:/home/www/.ssh:ro
+    restart: always
+    command: php-fpm
+    cap_add:
+      - SYS_PTRACE
+    networks:
+      - default
 
   php81:
     build:
