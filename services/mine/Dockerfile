@@ -34,7 +34,7 @@ RUN set -ex \
 WORKDIR /opt/www
 
 
-COPY ./www/MineAdmin /opt/www
+COPY ./www/mineadmin /opt/www
 
 # 修改composer镜像源
 RUN composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
