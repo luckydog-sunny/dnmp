@@ -1,7 +1,26 @@
 cluster.name: "docker-cluster"
 network.host: 0.0.0.0
 
+
+#node.name: masternode
+xpack.security.enabled: false
+# elasticsearch.username: "kibana"
+# elasticsearch.password: "kibana-pass"
+
+
+#是否允许跨域REST请求
+http.cors.enabled: true
+#允许REST请求来自何处
+http.cors.allow-origin: "*"
+
+#初始master节点
+#cluster.initial_master_nodes: ['masternode']
+ 
+#节点角色设置（ElasticSearch8新配置）
+#node.roles: [master]
+
+
 # minimum_master_nodes need to be explicitly set when bound on a public IP
 # set to 1 to allow single node clusters
 # Details: https://github.com/elastic/elasticsearch/pull/17288
-discovery.zen.minimum_master_nodes: 1
+#discovery.zen.minimum_master_nodes: 1
