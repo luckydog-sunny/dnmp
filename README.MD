@@ -5,12 +5,14 @@
 │   ├── mysql8                  MySQL8 数据目录
 │   ├── ...                     
 ├── services                    服务文件配置目录
-│   ├── mysql8                  MySQL8   配置目录
-│   ├── nginx                   Nginx    配置目录
-│   ├── php81                   PHP8.1   配置目录
-│   ├── php74                   PHP7.4   配置目录
-│   ├── rabbitmq                Rabbitmq 配置目录
-│   └── redis                   Redis    配置目录
+│   ├── mysql8                  MySQL8    配置目录
+│   ├── nginx                   Nginx     配置目录
+│   ├── mine                    MineAdmin 配置目录
+│   ├── php82                   PHP8.2    配置目录
+│   ├── php81                   PHP8.1    配置目录
+│   ├── php74                   PHP7.4    配置目录
+│   ├── rabbitmq                Rabbitmq  配置目录
+│   └── redis                   Redis     配置目录
 │   └── ...                     
 ├── logs                        日志目录
 ├── docker-compose.yml          Docker 服务配置文件

@@ -31,19 +31,9 @@ RUN set -ex \
     && rm -rf /var/cache/apk/* /tmp/* /usr/share/man \
     && echo -e "\033[42;37m Build Completed :).\033[0m\n"
 
-WORKDIR /opt/www
-
-
-COPY ./www/mineadmin /opt/www
+WORKDIR /opt/www/mineadmin
 
 # 修改composer镜像源
 RUN composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 
-# 安装composer依赖包
-# RUN composer install --no-dev -o
-
-# 文件权限问题
-RUN chmod +x /opt/www/bin/hyperf.php
-
-
-ENTRYPOINT ["php", "/opt/www/bin/hyperf.php", "start"]
+ENTRYPOINT ["php", "/opt/www/mineadmin/bin/hyperf.php", "start"]

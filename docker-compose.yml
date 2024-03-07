@@ -1,28 +1,28 @@
 version: "3.8"
 services:
-#  mine:
-#    build:
-#      context: ./services/mine
-#      args:
-#        MINE_VERSION : ${MINE_VERSION}
-#    platform: linux/arm64/v8  # 适配mac-M1系统
-#    ports:
-#      - "${MINE_PORT_9000}:9000"
-#      - "${MINE_PORT_9501}:9501"
-#      - "${MINE_PORT_9502}:9502"
-#    user: root
-#    privileged: true
-#    volumes:
-#      - ${SOURCE_DIR}:/opt/www:rw
-#    environment:
-#      - APP_ENV=dev
-#      - SCAN_CACHEABLE=false
-#    cap_add:
-#      - SYS_PTRACE
-#    restart: always
-#    tty: true
-#    networks:
-#      - default
+  mine:
+    build:
+      context: ./services/mine
+      args:
+        MINE_VERSION : ${MINE_VERSION}
+    platform: linux/arm64/v8  # 适配mac-M1系统
+    ports:
+      - "${MINE_PORT_9000}:9000"
+      - "${MINE_PORT_9501}:9501"
+      - "${MINE_PORT_9502}:9502"
+    user: root
+    privileged: true
+    volumes:
+      - ${SOURCE_DIR}:/opt/www:rw
+    environment:
+      - APP_ENV=dev
+      - SCAN_CACHEABLE=false
+    cap_add:
+      - SYS_PTRACE
+    restart: always
+    tty: true
+    networks:
+      - default
 
   php74:
     build:
@@ -50,55 +50,55 @@ services:
       - default
 
 
-#  php82:
-#    build:
-#      context: ./services/php82
-#      args:
-#        PHP82_VERSION: ${PHP82_VERSION}
-#        PHP82_EXTENSIONS: ${PHP82_EXTENSIONS}
-#        CONTAINER_PACKAGE_URL: ${CONTAINER_PACKAGE_URL}
-#    ports:
-#      - "${PHP82_PORT_9000}:9000"
-#      - "${PHP82_PORT_9501}:9501"
-#      - "${PHP82_PORT_9502}:9502"
-#    volumes:
-#      - ${SOURCE_DIR}:/www/:rw
-#      - ${PHP82_SSL_DIR}:/data/cert:ro
-#      - ${PHP82_INI_FILE}:/usr/local/etc/php/php.ini:ro
-#      - ${PHP82_FPM_CONF_FILE}:/usr/local/etc/php-fpm.conf:ro
-#      - ${PHP82_LOG_DIR}:/var/log/php
-#      - ${PHP82_SSH_DIR}:/home/www/.ssh:ro
-#    restart: always
-#    command: php-fpm
-#    cap_add:
-#      - SYS_PTRACE
-#    networks:
-#      - default
-
-  php81:
+  php82:
     build:
-      context: ./services/php81
+      context: ./services/php82
       args:
-        PHP81_VERSION: ${PHP81_VERSION}
-        PHP81_EXTENSIONS: ${PHP81_EXTENSIONS}
+        PHP82_VERSION: ${PHP82_VERSION}
+        PHP82_EXTENSIONS: ${PHP82_EXTENSIONS}
         CONTAINER_PACKAGE_URL: ${CONTAINER_PACKAGE_URL}
     ports:
-      - "${PHP81_PORT_9000}:9000"
-      - "${PHP81_PORT_9501}:9501"
-      - "${PHP81_PORT_9502}:9502"
+      - "${PHP82_PORT_9000}:9000"
+      - "${PHP82_PORT_9501}:9501"
+      - "${PHP82_PORT_9502}:9502"
     volumes:
       - ${SOURCE_DIR}:/www/:rw
-      - ${PHP81_SSL_DIR}:/data/cert:ro
-      - ${PHP81_INI_FILE}:/usr/local/etc/php/php.ini:ro
-      - ${PHP81_FPM_CONF_FILE}:/usr/local/etc/php-fpm.conf:ro
-      - ${PHP81_LOG_DIR}:/var/log/php
-      - ${PHP81_SSH_DIR}:/home/www/.ssh:ro
+      - ${PHP82_SSL_DIR}:/data/cert:ro
+      - ${PHP82_INI_FILE}:/usr/local/etc/php/php.ini:ro
+      - ${PHP82_FPM_CONF_FILE}:/usr/local/etc/php-fpm.conf:ro
+      - ${PHP82_LOG_DIR}:/var/log/php
+      - ${PHP82_SSH_DIR}:/home/www/.ssh:ro
     restart: always
     command: php-fpm
     cap_add:
       - SYS_PTRACE
     networks:
       - default
+
+#  php81:
+#    build:
+#      context: ./services/php81
+#      args:
+#        PHP81_VERSION: ${PHP81_VERSION}
+#        PHP81_EXTENSIONS: ${PHP81_EXTENSIONS}
+#        CONTAINER_PACKAGE_URL: ${CONTAINER_PACKAGE_URL}
+#    ports:
+#      - "${PHP81_PORT_9000}:9000"
+#      - "${PHP81_PORT_9501}:9501"
+#      - "${PHP81_PORT_9502}:9502"
+#    volumes:
+#      - ${SOURCE_DIR}:/www/:rw
+#      - ${PHP81_SSL_DIR}:/data/cert:ro
+#      - ${PHP81_INI_FILE}:/usr/local/etc/php/php.ini:ro
+#      - ${PHP81_FPM_CONF_FILE}:/usr/local/etc/php-fpm.conf:ro
+#      - ${PHP81_LOG_DIR}:/var/log/php
+#      - ${PHP81_SSH_DIR}:/home/www/.ssh:ro
+#    restart: always
+#    command: php-fpm
+#    cap_add:
+#      - SYS_PTRACE
+#    networks:
+#      - default
 
   nginx:
      build:
