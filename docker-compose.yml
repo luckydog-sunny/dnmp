@@ -1,28 +1,28 @@
 version: "3.8"
 services:
-  # mine:
-  #   build:
-  #     context: ./services/mine
-  #     args:
-  #       MINE_VERSION : ${MINE_VERSION}
-  #  platform: linux/arm64
-  #   ports:
-  #     - "${MINE_PORT_9000}:9000"
-  #     - "${MINE_PORT_9501}:9501"
-  #     - "${MINE_PORT_9502}:9502"
-  #   user: root
-  #   privileged: true
-  #   volumes:
-  #     - ${SOURCE_DIR}:/opt/www:rw
-  #   environment:
-  #     - APP_ENV=dev
-  #     - SCAN_CACHEABLE=false
-  #   cap_add:
-  #     - SYS_PTRACE
-  #   restart: always
-  #   tty: true
-  #   networks:
-  #     - default
+  mine:
+    build:
+      context: ./services/mine
+      args:
+        MINE_VERSION : ${MINE_VERSION}
+   platform: linux/arm64
+    ports:
+      - "${MINE_PORT_9000}:9000"
+      - "${MINE_PORT_9501}:9501"
+      - "${MINE_PORT_9502}:9502"
+    user: root
+    privileged: true
+    volumes:
+      - ${SOURCE_DIR}:/opt/www:rw
+    environment:
+      - APP_ENV=dev
+      - SCAN_CACHEABLE=false
+    cap_add:
+      - SYS_PTRACE
+    restart: always
+    tty: true
+    networks:
+      - default
 
   # php74:
   #   build:
