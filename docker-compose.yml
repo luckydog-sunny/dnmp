@@ -4,7 +4,7 @@ services:
       context: ./services/mine
       args:
         MINE_VERSION : ${MINE_VERSION}
-   platform: linux/arm64
+    platform: linux/arm64
     ports:
       - "${MINE_PORT_9000}:9000"
       - "${MINE_PORT_9501}:9501"
